@@ -7,7 +7,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 
 # --- CẤU HÌNH ---
-TELEGRAM_TOKEN = os.environ.get("8229062858:AAGeAmWU_hJHYSBdNeIzgreXh29MLt-ijXg")
+TELEGRAM_TOKEN = os.environ.get("8241173486:AAEfmZ4pwqIq7L4vaWidg0i7OQfSTqh5AIY")
 GEMINI_API_KEY = os.environ.get("AIzaSyBIRUKodeBYsunFNx5qIoZHh5ZkAhCkAR8")
 
 # --- PHẦN 1: TẠO WEB ẢO (ĐỂ RENDER KHÔNG TẮT BOT) ---
