@@ -27,8 +27,7 @@ if not TELEGRAM_TOKEN or not GEMINI_API_KEY:
     raise ValueError("Thiếu biến môi trường!")
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-pro')
-
+model = genai.GenerativeModel('gemini-1.5-flash')
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
